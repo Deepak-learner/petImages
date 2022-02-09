@@ -33,7 +33,7 @@
         color: orange;
     }
         
-    .catButton {
+    .petButton {
         margin: 20px;
         width: 90px;
         padding: 10px;
@@ -42,39 +42,9 @@
         border-radius: 42px;
     }
         
-    .catButton:hover {
+    .petButton:hover {
         width: 90px;
         background-color: #4CAF50;
-        color: white;
-    }
-        
-    .dogButton {
-        margin: 20px;
-        padding: 10px;
-        width: 90px;
-        background-color: black; 
-        color: white; 
-        border-radius: 42px;
-    }
-        
-    .dogButton:hover {
-        width: 90px;
-        background-color: green;
-        color: white;
-    }
-        
-    .parrotButton {
-        margin: 20px;
-        width: 90px;
-        padding: 10px;
-        background-color: black; 
-        color: white; 
-        border-radius: 42px;
-    }
-        
-    .parrotButton:hover {
-        width: 90px;
-        background-color: green;
         color: white;
     }
 
@@ -97,15 +67,13 @@
             font-size: 20px;
         }
 
-        .catButton {
+        .petButton {
             width: 120px;
-        }
+        }  
 
-        .dogButton {
+        .petButton:hover {
             width: 120px;
+            background-color: #4CAF50;
+            color: white;
         }
-
-        .parrotButton {
-            width: 120px;
-        }    
     }
