@@ -8,28 +8,26 @@
     </head>
     <body>
         <div class="boundary">
-            <div>
                 <p class="heading">
                     Welcome to the Pet World !
                 <p>
-                <img id="petImage" src="assets/pet1.jpeg">
+                <img id="petImage" src="assets/dog.jpeg">
                 <p id="message">
-                    Animal is Cat!
-                <p>
-            </div>       
+                    Animal is Dog!
+                <p>      
         <div class="petImageChangebutton">
-            <button class="catButton" onclick=changePetImage(1);>
-                Cat
-            </button>
-            <button class="dogButton" onclick=changePetImage(2);>
+            <button class="catButton" onclick="changePetImage('dog')";>
                 Dog
             </button>
-            <button class="parrotButton" onclick=changePetImage(3);>
+            <button class="dogButton" onclick="changePetImage('cat')";>
+                Cat
+            </button>
+            <button class="parrotButton" onclick="changePetImage('parrot')";>
                 Parrot
             </button>
         </div>
         </div>
         <!-- include javascript file -->
-        <script src="scripts/index.js">	</script>
+        <script type="text/javascript" src="scripts/index.js">	</script>
     </body>
     </html>
